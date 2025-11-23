@@ -11,11 +11,8 @@ A user-friendly web app built with Streamlit to recommend the best fertilizer ba
 
 ## Installation :-  
 To run this application locally, follow these steps:  
-Clone the repository:  
-git clone https://github.com/DeepakMallesh/fertilizer-recommendation-system.git
-cd fertilizer-recommendation-system  
-Install the required dependencies:  
-pip install -r requirements.txt  
+Clone the repository
+Install the required dependencies 
 
 ## Usage :-  
 To start the application, run the following command : streamlit run app.py  
