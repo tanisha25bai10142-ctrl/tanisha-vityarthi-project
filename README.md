@@ -19,22 +19,22 @@ To start the application, run the following command : streamlit run app.py
 This will open a new tab in your default web browser with the Fertilizer Recommendation System.  
 
 ## Features
-Soil Nutrient Analysis: Accepts quantitative input for calcium, magnesium, potassium, sulfur, nitrogen, lime, carbon, phosphorus, and moisture to evaluate soil health.
-Automated Fertilizer Recommendation: Uses a trained machine learning model to predict the most suitable fertilizer type based on the soil parameters provided.
-User-friendly Interface: Streamlit-based app enables easy input and immediate results for farmers, agronomists, or students without coding experience.
-Intelligent Label Encoding and Scaling: Preprocesses inputs using standardization and label encoding for consistent model predictions.
-Supports Multiple Fertilizer Types: Can classify and suggest a range of fertilizer options, such as Potassium sulfate, Superphosphate, complex blends, and more.
-Fast Real-time Results: Provides instant fertilizer recommendations after user submits soil details.
-Expandable Dataset: Model can be retrained with new or larger datasets for improved accuracy and adaptability.
+**Soil Nutrient Analysis :** Accepts quantitative input for calcium, magnesium, potassium, sulfur, nitrogen, lime, carbon, phosphorus, and moisture to evaluate soil health.
+**Automated Fertilizer Recommendation:** Uses a trained machine learning model to predict the most suitable fertilizer type based on the soil parameters provided.
+**User-friendly Interface:** Streamlit-based app enables easy input and immediate results for farmers, agronomists, or students without coding experience.
+**Intelligent Label Encoding and Scaling:** Preprocesses inputs using standardization and label encoding for consistent model predictions.
+**Supports Multiple Fertilizer Types:** Can classify and suggest a range of fertilizer options, such as Potassium sulfate, Superphosphate, complex blends, and more.
+**Fast Real-time Results:** Provides instant fertilizer recommendations after user submits soil details.
+**Expandable Dataset:** Model can be retrained with new or larger datasets for improved accuracy and adaptability.
 
 ## Technology Stack
-Python: Primary programming language for model training, backend logic, and application scripts.
-Pandas & NumPy: Data loading, manipulation, and efficient numerical processing.
-scikit-learn: Feature scaling, label encoding, and train-test splitting for machine learning workflows.
-TensorFlow & Keras: Building, training, and saving neural network models for classification.
-Joblib: Serialization of preprocessing objects like scalers and label encoders for reliable inference.
-Streamlit: Interactive web framework for rapid deployment of the user interface and real-time recommendations.
-CSV Data Format: Stores and organizes soil nutrient and fertilizer type information for training and predictions.
+**Python:** Primary programming language for model training, backend logic, and application scripts.
+**Pandas & NumPy:** Data loading, manipulation, and efficient numerical processing.
+**scikit-learn:** Feature scaling, label encoding, and train-test splitting for machine learning workflows.
+**TensorFlow & Keras:** Building, training, and saving neural network models for classification.
+**Joblib:** Serialization of preprocessing objects like scalers and label encoders for reliable inference.
+**Streamlit:** Interactive web framework for rapid deployment of the user interface and real-time recommendations.
+**CSV Data Format:** Stores and organizes soil nutrient and fertilizer type information for training and predictions.
 
 ## Enter Soil Parameters :-  
 In the application, you'll need to enter the following soil parameters:  
@@ -69,10 +69,10 @@ The AgriFertilizer Recommendation System was evaluated on its ability to accurat
 ## Contributing
 We welcome contributions to improve and expand this fertilizer recommendation system!
 Fork the Repository: Click "Fork" to create your personal copy of the project.
-Clone Your Fork: Download it to your machine using
+**Clone Your Fork:** Download it to your machine using
 git clone <your-fork-url>
-Add Your Changes: Update code, models, or documentation as needed. Suggested improvements include model accuracy, new features, user interface design, or additional fertilizer classes.
-Pull Request: Submit your changes via a pull request. Please clearly describe what you changed and why.
-Testing: Ensure your changes do not break existing functionality. Test your workflow before submitting.
-Discussion & Suggestions: Feel free to open Issues for bug reports, feature ideas, or questions.
+**Add Your Changes:** Update code, models, or documentation as needed. Suggested improvements include model accuracy, new features, user interface design, or additional fertilizer classes.
+**Pull Request:** Submit your changes via a pull request. Please clearly describe what you changed and why.
+**Testing:** Ensure your changes do not break existing functionality. Test your workflow before submitting.
+**Discussion & Suggestions:** Feel free to open Issues for bug reports, feature ideas, or questions.
 
