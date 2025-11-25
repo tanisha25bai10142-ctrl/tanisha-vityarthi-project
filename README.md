@@ -20,11 +20,17 @@ This will open a new tab in your default web browser with the Fertilizer Recomme
 
 ## Features
 **Soil Nutrient Analysis :** Accepts quantitative input for calcium, magnesium, potassium, sulfur, nitrogen, lime, carbon, phosphorus, and moisture to evaluate soil health.
+
 **Automated Fertilizer Recommendation:** Uses a trained machine learning model to predict the most suitable fertilizer type based on the soil parameters provided.
+
 **User-friendly Interface:** Streamlit-based app enables easy input and immediate results for farmers, agronomists, or students without coding experience.
+
 **Intelligent Label Encoding and Scaling:** Preprocesses inputs using standardization and label encoding for consistent model predictions.
+
 **Supports Multiple Fertilizer Types:** Can classify and suggest a range of fertilizer options, such as Potassium sulfate, Superphosphate, complex blends, and more.
+
 **Fast Real-time Results:** Provides instant fertilizer recommendations after user submits soil details.
+
 **Expandable Dataset:** Model can be retrained with new or larger datasets for improved accuracy and adaptability.
 
 ## Technology Stack
